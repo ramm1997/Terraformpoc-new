@@ -1,29 +1,29 @@
 #resources
 variable "name" {
     type = string
-    default = "javeed-resources"
+    default = "ramm_resources"
 }
 
-variable "location" { 
+variable "newlocation" { 
     type = string
-    default = "West Europe"
+    default = "eastus"
 }
 
 #network name
 variable "network" {
     type = string
-    default = "javeed-network"
+    default = "POC-network"
 }
 #subnet name
 variable "internal" {
     type = string
-    default = "javeed-subnet"
+    default = "my-subnet"
 }
 
 #network_interface
-variable "test" {
+variable "testconfig" {
     type  = string
-    default = "testconfiguration1"
+    default = "testconfiguration"
 }
 variable "private_ip" {
     type = string
