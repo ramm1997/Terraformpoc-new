@@ -1,5 +1,5 @@
 #resources
-variable "name" {
+variable "Name" {
     type = string
     default = "ramm_resources"
 }
